@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_home">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home50"
+                    android:title="Home" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_address">
+                <item
+                    android:id="@+id/nav_address"
+                    android:icon="@drawable/icon_book"
+                    android:title="Manage Address Book" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_history">
+                <item
+                    android:id="@+id/nav_order_history"
+                    android:icon="@drawable/icon_order"
+                    android:title="Order History" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_comments">
+                <item
+                    android:id="@+id/nav_comments"
+                    android:icon="@drawable/icon_comments"
+                    android:title="Comments" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_about_us">
+                <item
+                    android:id="@+id/nav_about_us"
+                    android:icon="@drawable/icon_about_us"
+                    android:title="About Developer" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_contact_us">
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@drawable/icon_contact"
+                    android:title="Contact Developer" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_terms">
+                <item
+                    android:id="@+id/nav_terms"
+                    android:icon="@drawable/icon_temrs"
+                    android:title="Terms and Conditions" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_logout">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="LogOut" />
+        </group>
+        <group
+            android:checkableBehavior="single"
+            android:id="@+id/group_exit">
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/exit"
+                    android:title="Exit" />
+        </group>
+
+</menu>

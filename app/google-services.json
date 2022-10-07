@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "353198442113",
+    "project_id": "oye-bhangarwala"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353198442113:android:bdd4556945a314d0",
+        "android_client_info": {
+          "package_name": "com.techflux.oyebhangarwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353198442113-9fs9pn2bv8ti7nc0v4duanb7hc37608c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techflux.oyebhangarwala",
+            "certificate_hash": "aa86c739b85a1077ba9609a48024295a98353577"
+          }
+        },
+        {
+          "client_id": "353198442113-j7f8mfk442e17l61evjvsehhpss0adsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIAfauhsCqt_zdMZnAVL2xHUQS9BlOADE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

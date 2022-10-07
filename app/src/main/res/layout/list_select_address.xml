@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:id="@+id/radioButton_selected"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/radioButton_selected">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:text="Karthik Tungenwar"
+            android:textStyle="bold|normal"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/view_FullName" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flat no. 3, Satya Bhavana Society,"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/view_Address1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Near RathChakra Chowk,"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/view_Address2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indira Nagar,"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/view_Address3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nashik, Maharasthra"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/view_City_State" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone no.8007233246"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/view_Mobile" />
+    </LinearLayout>
+</RelativeLayout>

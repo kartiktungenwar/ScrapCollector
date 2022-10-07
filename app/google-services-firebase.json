@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "178083719462",
+    "firebase_url": "https://oye-bhangarwala-72210.firebaseio.com",
+    "project_id": "oye-bhangarwala-72210",
+    "storage_bucket": "oye-bhangarwala-72210.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178083719462:android:bdd4556945a314d0",
+        "android_client_info": {
+          "package_name": "com.techflux.oyebhangarwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178083719462-s1d9ikp4m47jlihamhk3q030n3d5p8fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9iPD90XsPygO4FwGD72f1kK9oAnURNJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

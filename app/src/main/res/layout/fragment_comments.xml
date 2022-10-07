@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/comments"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView_title" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_comment"
+        android:divider="@color/color_white"
+        android:dividerHeight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_below="@+id/textView_title" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_margin"
+        android:background="@color/color_grey"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/user"
+            android:id="@+id/imageView_user"
+            android:layout_margin="@dimen/activity_margin"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/color_white" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:padding="@dimen/activity_margin"
+            android:id="@+id/et_comment"
+            android:textSize="15dp"
+            android:hint="@string/writecomment"
+            android:layout_gravity="center"
+            android:background="@drawable/roundcorner"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/activity_margin"
+            android:id="@+id/imageViewSend"
+            android:src="@drawable/ic_menu_send"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

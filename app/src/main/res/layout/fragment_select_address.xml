@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/select_address"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_effect"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin"
+            android:clipToPadding="false"
+            android:layout_gravity="center"
+            android:scrollbars="vertical"
+            android:layout_below="@+id/textView_title_group"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/relativeLayout" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:id="@+id/_done_address"
+            android:textColor="@color/color_white"
+            android:layout_margin="@dimen/activity_margin"
+            android:background="@drawable/roundedconerbutton"
+            android:layout_below="@+id/listView_"
+            android:text="@string/select_this_address"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/_done_address"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/edit"
+                android:layout_weight="1"
+                android:textColor="@color/color_white"
+                android:background="@drawable/roundedconerbutton"
+                android:id="@+id/_button_Edit" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:text="@string/delete"
+                android:layout_weight="1"
+                android:textColor="@color/color_white"
+                android:id="@+id/_button_Delete"
+                android:background="@drawable/roundedconerbutton" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_address"
+        android:background="@drawable/round_effect">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:text="@string/addinfo"
+            android:id="@+id/textView3" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/arrow"/>
+    </RelativeLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="You Have Not Add Address Yet"
+            android:id="@+id/textView_Empty"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_margin"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
